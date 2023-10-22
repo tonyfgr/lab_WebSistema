@@ -6,10 +6,7 @@ package dao;
 
 import java.util.List;
 import modelos.Cursos;
-/**
- *
- * @author jhons
- */
+
 public interface ICursosDAO {
     public boolean registrar (Cursos curso);
     public List<Cursos> obtener();
